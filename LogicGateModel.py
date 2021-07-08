@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy
 import matplotlib.pyplot as plt
 
+#NAND gate emulated with a neural network using tensorflow
 x = np.array([[0, 0], [1, 1], [1, 0], [0, 1]])
 y = np.array([0, 1, 0, 0])
 
