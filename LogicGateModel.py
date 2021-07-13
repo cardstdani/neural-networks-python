@@ -1,5 +1,5 @@
 import tensorflow as tf
-import numpy
+import numpy as np
 import matplotlib.pyplot as plt
 
 #NAND gate emulated with a neural network using tensorflow
