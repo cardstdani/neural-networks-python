@@ -17,8 +17,7 @@ def ac(x):
   return x*x
 
 model = tf.keras.Sequential(layers=[
-                                    tf.keras.layers.Dense(10, activation=ac),
-                                    tf.keras.layers.Dense(10, activation=None),
+                                    tf.keras.layers.Dense(100, activation=ac),
                                     tf.keras.layers.Dense(1)
 ])
 
