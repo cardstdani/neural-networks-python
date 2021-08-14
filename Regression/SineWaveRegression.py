@@ -5,7 +5,7 @@ dataLength = (360*3)
 testLength = int(dataLength * 0.7)
 for i in range(-dataLength, dataLength):
   x.append(i)
-  y.append(8*math.sin(math.radians(i)))
+  y.append(math.sin(math.radians(i)))
 
 x_train = tf.constant(x[:testLength])
 y_train = tf.constant(y[:testLength])
